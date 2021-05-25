@@ -1,0 +1,25 @@
+to set up environments
+
+    Install Python * if not installed
+        $ sudo apt-get install python
+
+    Install MongoDB after installation of mongodb
+        $ sudo apt install -y mongodb
+
+    Install Dependencies of the application
+        $ pip install -r requirements.txt
+
+run the application
+    Run MongoDB
+    1) Start MongoDB
+        $ sudo service mongod start
+    2) Stop MongoDB
+        $ sudo service mongod stop
+
+    Run the Flask file(app.py)
+        $ python app.py
+
+    Go to http://localhost:8000
+        $ open http://localhost:8000
+
+    To exit press Ctrl+C
