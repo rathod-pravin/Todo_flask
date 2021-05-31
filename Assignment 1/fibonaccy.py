@@ -1,7 +1,8 @@
 i = 0
 First_Value = 0
 Second_Value = 1
-result=[]    
+result=[]
+Number =int(input("enter number"))
 while(i < Number+1):
            if(i <= 1):
                       Next = i
@@ -10,5 +11,6 @@ while(i < Number+1):
                       First_Value = Second_Value
                       Second_Value = Next
            result.append(Next)
+
            i = i + 1
 print(sum(result))
